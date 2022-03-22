@@ -73,8 +73,8 @@ if __name__ == '__main__':
     conn = pymysql.connect(
     host='localhost',
     port=3306,
-    user='danielhug',
-    password='Purple!2',
+    user='',
+    password='',
     db='entityDB'
     )
     cur= conn.cursor()
